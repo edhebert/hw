@@ -16,13 +16,12 @@
 </head>
 <?php 
     // if the hour is between 6:00A and 8:00 PM make bg blue
-    if ((date("G") > 6) || (date("G") < 19))
+    if ((date("G") > 6) && (date("G") < 19))
         $background = "day";
     else
         $background = "night";
 ?>
 
 <body class="<?php echo $background ?>">
-    <h1> <?= date("G") hours ?></h1>
 </body>
 </html>
