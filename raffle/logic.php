@@ -13,7 +13,11 @@
         # $input_name will be the name of the input field such as "contestant1" or "contestant2"
         # $value will be whatever was typed into that field
             foreach($_POST as $input_name => $value) {
-                    
+
+                // save the names in an array
+                    $name[$count] = $value;
+                    $count++;
+
                 # Generate a random number
                     $random_number = rand(1,$how_many_contestants);
                     
