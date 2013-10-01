@@ -12,6 +12,7 @@
         # Loop through contestants, seeing if any won
         # $input_name will be the name of the input field such as "contestant1" or "contestant2"
         # $value will be whatever was typed into that field
+                $count = 0;
             foreach($_POST as $input_name => $value) {
 
                 // save the names in an array
