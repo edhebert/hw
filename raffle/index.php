@@ -27,7 +27,7 @@
               <form class="form-horizontal" role="form" method="post" action="index.php">
                 <div class="form-group">
                     <div class="col-lg-10">
-                        <input type="input" class="form-control" name="name1" placeholder="Contestant One" <?php if($_POST) echo "value='$name[0]'"; ?>>
+                        <input type="input" class="form-control" name="name1" placeholder="Contestant One" <?php if($_POST) echo "value=\"{$name[0]}\"" ?>>
                     </div>
                 </div>
                 <div class="form-group">
