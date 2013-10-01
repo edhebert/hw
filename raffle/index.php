@@ -27,22 +27,22 @@
               <form class="form-horizontal" role="form" method="post" action="index.php">
                 <div class="form-group">
                     <div class="col-lg-10">
-                        <input type="input" class="form-control" name="name1" placeholder="Contestant One">
+                        <input type="input" class="form-control" name="name1" placeholder="Contestant One" <?php if($_POST) echo "value='$name[0]'"; ?>>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="col-lg-10">
-                        <input type="input" class="form-control" name="name2" placeholder="Contestant Two">
+                        <input type="input" class="form-control" name="name2" placeholder="Contestant Two" <?php if($_POST) echo "value='$name[1]'"; ?>>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="col-lg-10">
-                        <input type="input" class="form-control" name="name3" placeholder="Contestant Three">
+                        <input type="input" class="form-control" name="name3" placeholder="Contestant Three" <?php if($_POST) echo "value='$name[2]'"; ?>>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="col-lg-10">
-                        <input type="input" class="form-control" name="name4" placeholder="Contestant Four">
+                        <input type="input" class="form-control" name="name4" placeholder="Contestant Four" <?php if($_POST) echo "value='$name[3]'"; ?>>
                     </div>
                 </div>
                 <div class="form-group">
