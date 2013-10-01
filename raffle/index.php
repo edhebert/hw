@@ -27,22 +27,22 @@
               <form class="form-horizontal" role="form" method="post" action="index.php">
                 <div class="form-group">
                     <div class="col-lg-10">
-                        <input type="input" class="form-control" id="name1" placeholder="Contestant One">
+                        <input type="input" class="form-control" name="name1" placeholder="Contestant One">
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="col-lg-10">
-                        <input type="input" class="form-control" id="name2" placeholder="Contestant Two">
+                        <input type="input" class="form-control" name="name2" placeholder="Contestant Two">
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="col-lg-10">
-                        <input type="input" class="form-control" id="name3" placeholder="Contestant Three">
+                        <input type="input" class="form-control" name="name3" placeholder="Contestant Three">
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="col-lg-10">
-                        <input type="input" class="form-control" id="name4" placeholder="Contestant Four">
+                        <input type="input" class="form-control" name="name4" placeholder="Contestant Four">
                     </div>
                 </div>
                 <div class="form-group">
